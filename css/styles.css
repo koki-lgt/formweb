@@ -12,15 +12,29 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+
 }
 
 /* Header */
-h1 {
-  font-size: 2.5rem;
-  color: #0077b6;
-  margin: 20px 0;
-  font-family: Arial, Helvetica, sans-serif;
+header {
+  padding: 10px; /* Adds padding around the header */
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color for contrast */
+  text-align: center; /* Center-aligns the text */
+  
 }
+
+header h1 {
+  font-size: 2.5rem; /* Larger font size for the title */
+  margin: 10px 0; /* Adds some spacing around the title */
+}
+
+header p {
+  font-size: 1.2rem; /* Slightly smaller font size for the paragraph */
+  margin-top: 10px; /* Adds spacing between the title and paragraph */
+  color: #ddd; /* Slightly lighter text color for the paragraph */
+}
+
 
 /* Form Styling */
 form {
@@ -92,4 +106,9 @@ form button:hover {
     font-size: 1.2rem;
   }
 }
-
+footer{
+  padding:10px;
+  background-color: #333;
+  color: #fff;
+  
+}
